@@ -6,7 +6,7 @@ from brain_extraction import generateDir
 
 SLICE_DIR_PATH = "Slices"
 BOUNDARY_DIR_PATH = "Boundaries"
-IMAGE_DIR_PATH = "Data_1"
+IMAGE_DIR_PATH = "Data"
 
 def main():
     """Main function to execute the brain extraction and contour drawing process."""
