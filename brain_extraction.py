@@ -69,6 +69,7 @@ def getDimensionOfImage(coordinates):
             if pixelCoord[0] != last:
                 height = pixelCoord[0] - last
                 last = pixelCoord[0]
+                break
 
     return width, height
 
